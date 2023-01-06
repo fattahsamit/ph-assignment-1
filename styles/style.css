@@ -5,18 +5,18 @@
 }
 
 /* Banner */
+
 .banner {
   background-image: url("../images/banner/banner3.png");
   background-repeat: no-repeat;
-  background-position: cover;
+  /* background-position: cover; */
   background-blend-mode: darken;
-  /* width: 100%; */
+  background-size: cover;
   height: 100vh;
   text-align: right;
   display: flex;
   justify-content: right;
   align-items: center;
-  margin-left: -100px;
   padding: 55px 50px;
 }
 
