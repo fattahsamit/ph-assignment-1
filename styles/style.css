@@ -10,8 +10,8 @@
   background-image: url("../images/banner/banner3.png");
   background-repeat: no-repeat;
   background-position: cover;
-  /* background-blend-mode: darken; */
-  width: 100%;
+  background-blend-mode: darken;
+  /* /* width: 100%; */
   height: 100vh;
   text-align: right;
   display: flex;
@@ -48,4 +48,41 @@
   font-size: 20px;
   border: none;
   border-radius: 5px;
+}
+
+/* Failures of previous year */
+.failure {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 85px;
+  padding: 120px 50px;
+}
+
+.failure-imagge {
+  width: 550px;
+  height: 700px;
+}
+
+.failure-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 47px;
+  margin-bottom: 24px;
+}
+
+.failure-description {
+  color: #444343;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  line-height: 35px;
+}
+
+.failure i {
+  color: #13ba13;
 }
