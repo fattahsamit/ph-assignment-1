@@ -11,13 +11,12 @@
   background-repeat: no-repeat;
   background-position: cover;
   background-blend-mode: darken;
-  /* /* width: 100%; */
+  /* width: 100%; */
   height: 100vh;
   text-align: right;
   display: flex;
   justify-content: right;
   align-items: center;
-  /* border: black solid; */
   margin-left: -100px;
   padding: 55px 50px;
 }
@@ -53,7 +52,7 @@
 /* Failures of previous year */
 .failure {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   gap: 85px;
   padding: 120px 50px;
@@ -64,7 +63,7 @@
   height: 700px;
 }
 
-.failure-title {
+.section-title {
   font-weight: 700;
   font-size: 45px;
   line-height: 47px;
@@ -85,4 +84,33 @@ ul {
 
 .failure i {
   color: #13ba13;
+}
+
+/* My Plans */
+.plans {
+  text-align: center;
+  padding: 120px 50px;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 80px;
+  margin: 50px 0;
+}
+
+.plan {
+  padding: 10px;
+}
+
+.plans-description {
+  font-weight: 500;
+  color: #444343;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.plans .section-title {
+  font-size: 30px;
 }
