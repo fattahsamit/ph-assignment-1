@@ -6,7 +6,6 @@
 
 /* Banner */
 .banner {
-  color: white;
   background-image: url("../images/banner/banner3.png");
   background-repeat: no-repeat;
   background-position: cover;
@@ -26,6 +25,7 @@
 }
 
 .banner-title {
+  color: white;
   font-weight: 700;
   font-size: 65px;
   line-height: 76px;
@@ -33,6 +33,7 @@
 }
 
 .banner-description {
+  color: white;
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 32px;
@@ -56,11 +57,6 @@
   align-items: center;
   gap: 85px;
   padding: 120px 50px;
-}
-
-.failure-imagge {
-  width: 550px;
-  height: 700px;
 }
 
 .section-title {
@@ -89,7 +85,7 @@ ul {
 /* My Plans */
 .plans {
   text-align: center;
-  padding: 120px 50px;
+  margin: 50px 20%;
 }
 
 .plans-container {
@@ -113,4 +109,27 @@ ul {
 
 .plans .section-title {
   font-size: 30px;
+}
+
+/* Positive mindset */
+.mindset {
+  background-image: url("../images/watch.png"), url(../images/gradient1.png),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: left;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: row;
+}
+
+.mindset .banner-title {
+  font-size: 40px;
+}
+
+.mindset .btn-primary {
+  font-weight: 600;
+  font-size: 20px;
 }
