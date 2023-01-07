@@ -50,6 +50,12 @@
   border-radius: 5px;
 }
 
+.btn-primary:hover {
+  background-color: #005fac;
+  color: white;
+  border: 1px solid white;
+}
+
 /* Failures of previous year */
 .failure {
   display: flex;
@@ -96,13 +102,17 @@ ul {
   padding: 120px 50px;
 }
 
+.habits-content {
+  padding-left: 150px;
+}
+
 .habits-image {
   width: 500px;
   height: 500px;
 }
 
 .habits i {
-  color: #d81616;
+  color: #167dd8;
 }
 
 /* My Plans */
@@ -180,7 +190,7 @@ footer {
   display: flex;
   justify-items: center;
   justify-content: space-between;
-  gap: 100px;
+  gap: 200px;
   margin: 0 20%;
   padding: 20px 0;
 }
@@ -224,4 +234,8 @@ footer .section-description {
 .subscribe .btn-primary {
   color: white;
   background-color: #005fac;
+}
+
+.subscribe .btn-primary:hover {
+  background-color: #1175c7;
 }
