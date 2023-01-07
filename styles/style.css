@@ -59,6 +59,11 @@
   padding: 120px 50px;
 }
 
+.failure-image {
+  width: 550px;
+  height: 700px;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 45px;
@@ -66,7 +71,7 @@
   margin-bottom: 24px;
 }
 
-.failure-description {
+.section-description {
   color: #444343;
   font-size: 16px;
   line-height: 26px;
@@ -79,7 +84,7 @@ ul {
 }
 
 .failure i {
-  color: #13ba13;
+  color: #16d887;
 }
 
 /* My Plans */
@@ -144,7 +149,59 @@ ul {
   font-size: 35px;
 }
 
-.mindset .btn-primary {
+/* Footer */
+footer {
+  background-color: black;
+  color: white;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  gap: 300px;
+  margin: 0 20%;
+  padding: 20px 0;
+}
+
+/* Future Section */
+footer .section-title {
+  font-size: 45px;
+}
+
+footer .section-description {
+  color: white;
+}
+
+.future-icons {
+  display: flex;
+  gap: 17px;
+}
+
+/* Subscribe Section */
+.subscribe {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe h2 {
+  margin-bottom: 30px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 25px;
+}
+
+#email {
+  background-color: black;
+  padding: 20px;
+  border: white solid 1px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.subscribe .btn-primary {
+  color: white;
+  background-color: #005fac;
 }
