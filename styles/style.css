@@ -9,7 +9,7 @@
 .banner {
   background-image: url("../images/banner/banner3.png");
   background-repeat: no-repeat;
-  /* background-position: cover; */
+  background-position: cover;
   background-blend-mode: darken;
   background-size: cover;
   height: 100vh;
@@ -207,6 +207,7 @@ footer .section-description {
 .future-icons {
   display: flex;
   gap: 17px;
+  text-decoration: none;
 }
 
 /* Subscribe Section */
