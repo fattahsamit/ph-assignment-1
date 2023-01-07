@@ -87,6 +87,24 @@ ul {
   color: #16d887;
 }
 
+/* New Habits */
+.habits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 85px;
+  padding: 120px 50px;
+}
+
+.habits-image {
+  width: 500px;
+  height: 500px;
+}
+
+.habits i {
+  color: #d81616;
+}
+
 /* My Plans */
 .plans {
   text-align: center;
@@ -162,7 +180,7 @@ footer {
   display: flex;
   justify-items: center;
   justify-content: space-between;
-  gap: 300px;
+  gap: 100px;
   margin: 0 20%;
   padding: 20px 0;
 }
@@ -194,6 +212,7 @@ footer .section-description {
 }
 
 #email {
+  color: white;
   background-color: black;
   padding: 20px;
   padding-right: 150px;
